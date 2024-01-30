@@ -127,7 +127,7 @@ For example:
 * Making shared tasks between users
 * Addressing any bugs or issues found in the application
 
-* 1. Fork the Repository
+### 1. Fork the Repository
 
 Click on the "Fork" button on the top right of this repository's page to create your own copy of the project.
 
@@ -137,6 +137,7 @@ Clone your forked repository to your local machine.
 
 ```bash
 git clone https://github.com/kanyadirichard/TODO_list-Richard_Kanyadi-CDOF2.git
+```
 
 ### 3. Create a new branch for your contribution. 
 
@@ -144,6 +145,7 @@ Use a descriptive name that summarizes the purpose of your changes.
 
 ```bash
 git checkout -b feature/new-feature
+```
 
 ### 4. Make changes
 
@@ -159,6 +161,7 @@ Commit your changes and add a relevant commit message.
 
 ```bash
 git commit -m "Add new feature"
+```
 
 ### 7. Push Your Changes
 
@@ -166,6 +169,7 @@ Push your changes to your forked repository on GitHub.
 
 ```bash
 git push origin feature/new-feature
+```
 
 ### 8. Create a Pull Request
 

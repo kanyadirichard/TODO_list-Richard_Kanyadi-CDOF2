@@ -120,12 +120,12 @@ The application is very intuitive and guides the user step by step what to do.
 
 You can contribute to the application in numerous ways.
 For example:
-    * Implementing file handling
-    * Allowing users to set due dates or reminders
-    * Implementing undo for marking a task completed
-    * Making the application multi-user and adding authentication
-    **    Making shared tasks between users
-    * Addressing any bugs or issues found in the application
+* Implementing file handling
+* Allowing users to set due dates or reminders
+* Implementing undo for marking a task completed
+* Making the application multi-user and adding authentication
+* Making shared tasks between users
+* Addressing any bugs or issues found in the application
 
 
 ## Authors

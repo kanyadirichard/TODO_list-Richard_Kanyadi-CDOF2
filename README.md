@@ -26,12 +26,6 @@ Make sure you have the following installed on your machine:
     cd TODO_list-Richard_Kanyadi-CDOF2/
     ```
 
-3. Install the required dependencies:
-
-    ```bash
-    pip install -r requirements.txt
-    ```
-
 ### Using the application
 
 The application is very intuitive and guides the user step by step what to do. 

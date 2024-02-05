@@ -29,12 +29,19 @@ class TodoList:
         else:
             print('Invalid task index. Please try again.')
 
+    def undo_completion(self, task_index):
+        if 0 <= task_index < len(self.tasks):
+            self.tasks[task_index]["completed"] = False
+            print(f'Task: "{self.tasks[task_index]["task"]}" completion undone!')
+        else:
+            print('Invalid task index. Please try again.')
+
 def main():
     todo_list = TodoList()
 
     while True:
-        print('\n1. Add Task\n2. Delete Task\n3. Complete Task\n4. Show Tasks\n5. Exit')
-        choice = input('Enter your choice of command (1-5): ')
+        print('\n1. Add Task\n2. Delete Task\n3. Complete Task\n4. Undo Completion\n5. Show Tasks\n6. Exit')
+        choice = input('Enter your choice of command (1-6): ')
 
         if choice == '1':
             task = input('Enter the task: ')
@@ -49,7 +56,11 @@ def main():
             todo_list.complete_task(index - 1)
         elif choice == '4':
             todo_list.show_tasks()
+            index = int(input('Enter the task index to undo completion: '))
+            todo_list.undo_completion(index - 1)
         elif choice == '5':
+            todo_list.show_tasks()
+        elif choice == '6':
             print('The application is closing.')
             break
         else:

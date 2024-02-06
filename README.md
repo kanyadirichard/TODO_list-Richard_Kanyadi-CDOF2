@@ -33,7 +33,7 @@ The application is very intuitive and guides the user step by step what to do.
 1. Run the application:
 
     ```bash
-    python todo_app.py
+    python TODO_list.py
     ```
 
 2. You will see a menu with options:
